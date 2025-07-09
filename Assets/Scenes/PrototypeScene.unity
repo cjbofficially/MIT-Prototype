@@ -1,0 +1,865 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &240460329
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 240460332}
+  - component: {fileID: 240460331}
+  - component: {fileID: 240460330}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &240460330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240460329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &240460331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240460329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &240460332
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240460329}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &309994462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 309994463}
+  - component: {fileID: 309994465}
+  - component: {fileID: 309994464}
+  m_Layer: 2
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &309994463
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309994462}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1718690673}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1080, y: 1920}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &309994464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309994462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.8207547, g: 0.8147797, b: 0.7936543, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &309994465
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309994462}
+  m_CullTransparentMesh: 1
+--- !u!1 &519420028
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 519420032}
+  - component: {fileID: 519420031}
+  - component: {fileID: 519420029}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &519420029
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+--- !u!20 &519420031
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &519420032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1013442784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1013442785}
+  - component: {fileID: 1013442787}
+  - component: {fileID: 1013442786}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1013442785
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013442784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1406940236}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 262.05817, y: 463}
+  m_SizeDelta: {x: 400.0364, y: 876.8168}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1013442786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013442784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "No one remembered the books but her. \nThat was the first sentence in
+    The Book of Briars.\PIlya bristled when she first read that line because she
+    knew the \u201Cher\u201D mentioned in the passage was not her and felt the line
+    had been a nasty, underhanded swipe from the writer at Ilya\u2019s own failing
+    memory. It was cruel. But waiting for new pages, waiting to know what would happen
+    next, had been even crueler. The writer had not written in nearly two months\u2014a
+    still, late, sweltering summer without a single click of a typewriter key from
+    the fourth floor. And Ilya desperately needed to know what happened next. But
+    the room in the tower of the old, dark house was quiet. The typewriter keys remained
+    untapped. So Ilya wandered the dark and waited for more of the book\u2014a book
+    through which the writer had promised the truth, the truth she could no longer
+    remember. Ilya resented the \u201Cher\u201D from the story, hated her unseen.
+    The \u201Cher\u201D who hated the very same memory that Ilya was so desperate
+    to recall. Ilya waited for the writer to finish, season after season, longing
+    for the appropriate autumn, the one that began the book. The autumn that would
+    begin everything.\PThe whole of Ilya\u2019s existence was in service to the writer.
+    Tending the home fires, washing the cracked dishes, mopping the creaking floors,
+    caring for the caretaker, and caring for herself. It might have all seemed like
+    self-preservation, but instead was solely in service to the writer, and the books.
+    Not books. Singular, wasn\u2019t it? Book.\PIlya could see the first leaves begin
+    their fade to fire from the kitchen window. The thick air of summer was still
+    holding on, but autumn\u2019s fingers had begun to wind around the sticky ebbs
+    of heat, tugging the late season to other ends of the world. Ilya\u2019s withered
+    hands made quick work of the dirty dishes, rinsing them and drying them with
+    a rag. She took up the last plate and stopped to look at the half-dissolved pattern
+    painted on its chipped surface\u2014purple vines spiraling toward a rose at the
+    center. Who used this plate?\PShe couldn\u2019t remember. Was it her? The caretaker?
+    Memories were getting harder and harder to hold on to. It wasn\u2019t just her
+    age that was slowly eating away at her once-sharp and now failing mind. Memories
+    had always been hard to keep here in this place. Ilya opened a cabinet door with
+    thin, tapered fingers that were stained at the tips, like a cluster of gray-white
+    fountain pens smudged with ink. The cupboards had buckled over the years, some
+    had started pulling away from the wall, leaning out and over, as if they were
+    falling asleep. She put the dishes away and noticed summer light bleeding in
+    through the rotting plaster at the back of the cabinets. The shreds of cobweb
+    tucked inside billowed in the air like dress hems. That\u2019s where the memories
+    went. Through the cracks, into the gray outside. She watched the gossamer threads
+    flutter for a while. A small cup sat dust-covered in the back of the cabinet.
+    Porcelain, with a ring of ducklings circling it, eternally following their mother
+    duck as she in turn followed them. Had there once been children here? Perhaps
+    belonging to the writer? Hadn\u2019t she cared for them, then sent them out over
+    the water as they, one by one, grew too big to stay? Yes, there had been children.\PBut
+    now the house was quiet. Once grand, it was now a decomposing Victorian monster
+    filled with dim corners and shiny-dark floors that peeled off to winding halls
+    and countless, cluttered, unused rooms. Rooms with floors that moaned without
+    footsteps, where morning fog entered freely and settled into the moth-plucked
+    sofas and cracked plaster. It all felt dark, wet, and exposed. If the house hadn\u2019t
+    been completely forgotten by the outside world it would\u2019ve long been condemned
+    and destroyed. The back wall of the kitchen was almost completely gone and what
+    remained was crumbling brick peeking out of plaster like broken bone, covered
+    over with hastily hammered-up fence pickets. Vines crept through the slats, coming
+    to see what inside was like. What happened to that wall?\PIlya\u2019s fountain
+    pen fingers scribbled along the edges of the broken wall like she was worrying
+    a scar. Someone had scrawled a message near the broken edge.\P1998\u2014a storm
+    passed over the house.\PThat\u2019s right. Screaming wind and stinging rain,
+    but also dust and debris. She had written the message herself. A storm had feasted
+    on the house, and the house, being far removed, and Ilya, being old even twenty
+    years ago if she was right about how much time had passed, had resigned that
+    this was how she and the house and the writer would live. There was no choice
+    really. One would have an idea or a plan to do something about it, to repair
+    it, and this place would take those thoughts of plans, like it did with the past,
+    and scatter them in the underbrush, or in the black water beyond the trees.\PUpstairs,
+    a typewriter key clicked. Another. Every key struck with labored choice. Ilya
+    scurried to the sitting room and listened. A shiver ran through her thin frame,
+    a smile in her eyes, disconnected from her grim lips. She decided a fire was
+    in order. A fire to celebrate new pages and the end of summer. She fed the mouth
+    of a deep and crooked hearth, expertly setting a flame. Ilya could feel the autumn
+    chill coming before anyone else. Autumn carried cold, and the ghosts of memories
+    lost.\PHer large, round eyes reflected the growing firelight. When she blinked
+    back the heat, the lids crept slowly over the wet orbs, dreading the journey
+    ahead of them. Her skin was thin, a glazed window hinting at the interior, blue
+    veins and bones and thin ribbons of muscle. A beached creature from the deep
+    sea. Translucent, alien, weak-looking. But there was hidden, unused strength
+    in her long, lean body. The lone contrast to her pale skin were the faded numbers
+    etched into her forearm. Marks of a war long gone, but not entirely forgotten.
+    She\u2019d been fortified in the depths that eventually bore her here, to this
+    house, and she was strong. How did we get here? The caretaker, the writer, and
+    me?\PThis was a question she asked herself every day. Ilya slid into a hard,
+    wooden chair by the fire, fountain pen fingers intertwined in her lap, and there
+    she waited while the writer worked.\PThe light of early evening peeked through
+    the windows, casting stretched-out shadows of bare tree limbs, like a trick in
+    a carnival haunted house. The writer was spent, having churned out dozens of
+    new pages in a fever of productivity. Ilya shut the tower room door behind her
+    as quietly as she could, the stack of fresh pages in hand. She shuffled down
+    the four flights of stairs, devouring the new work with her orb eyes, finishing
+    them by the light of the fire she\u2019d built. When she was done, she held them
+    to her chest. Tears rimmed the edges of her lids as she rocked the pages in her
+    arms. This autumn. The story, while still unfinished, had been uncurled just
+    enough in the new passages that Ilya finally knew what she had to do. Where this
+    all was leading. Like kindling, the pages had set a fire in her old, cold body.\PShe
+    shuffled the typed pages into a neat stack and took them to the dining room,
+    adding them to stacks of other pages on the long, warped table, each chapter
+    pinned under a gray stone. The pages she had collected season after season. She
+    took a moment, staring down at the rows of stacks, the paper edges rippled from
+    age and humidity, fluttering in the ever-present draft. She looked down at the
+    book that was slowly being conjured over the course of years, as if she were
+    peering over the edge of a cliff\u2014The Book of Briars being born.\PThis autumn.
+    Today is the day she would clean the plate, light the fire, and walk to the boat.
+    Just like the first chapter always said. She took a breath, then began moving
+    stones aside, collecting stacks of pages until she held a chunk of the book in
+    her hands. Just the right chapters to begin, to set events in motion.\PIn the
+    study, Ilya sat at a small desk and copied an address from a notebook to an envelope,
+    then she slathered the corner with old stamps. She slid the pages into the large
+    envelope, along with other smaller envelopes, then moved to the front hall, where
+    she shrugged on a patched canvas coat. She yanked the jammed front door open
+    and marched out against the cool evening.\PThe old gray house stood at the end
+    of a small, densely treed island, which itself sat at the heart of a forgotten,
+    rock-shored lake. The island\u2019s shape was irregular. Deep, black inlets and
+    thick, fingerlike jetties. Paths that once crisscrossed the island had long been
+    consumed by plant life and mostly vanished. But Ilya moved along them by instinct,
+    muscle memory, pushing through the deep vegetation to the other side of the island.
+    The sky was dim and frosted. Autumn. She moved quickly from the ornate, rotting
+    house, peeking back to see the pair of leaded windows that had been thrown open
+    on the fourth-floor tower until the foliage of the island hid them again.\PIlya
+    ducked under a branch, swiping aside a silver necklace that hung from it. The
+    trees, bushes, and overgrown paths on the island were littered with old, worn
+    artifacts. Scarves and watches, rings and keys, pens and bottles, and mirrors
+    and books. The deep green foliage encrusted with gold, silver, and colors both
+    deep and long-faded. Most of the objects were brushed aside and piled up at the
+    edges of the paths, or into the underbrush, but there were newly arrived trinkets
+    that Ilya kicked aside as she moved to the other end of the island with purpose.
+    She disregarded the objects as nuisance, not as treasure. It was as if they had
+    washed onto the island from places unknown, like sea glass.\PShe approached a
+    man at a clearing in the center of the island, on his knees, picking the last
+    berries from the throng of tangled, thorn-ridden bushes that stood between them.
+    \u201CThe caretaker,\u201D Ilya called him. She couldn\u2019t remember his name.
+    Names didn\u2019t matter here. They were the first to go, names, carried over
+    the black water, into the fog. The berries were delicate and their skins split
+    between the man\u2019s thick, rending fingertips, staining them purple-black.
+    Like Ilya\u2019s. But his fingers were blunt and gnarled like the rest of him.
+    He stood, wiping his hands on his dark canvas pants. He was broadly built, and
+    tall, even though his body was warped as if he were always standing in a narrow
+    doorway only he could see. To the unfamiliar he may have seemed disabled, broken.
+    Like an old oak that had succumbed to weather or disease. But Ilya knew better.
+    She feared the caretaker because she knew his power. She didn\u2019t remember
+    how she knew, but a kernel of fear in the back of her mind rattled as she looked
+    up at him. Somewhere she imagined that his dense crookedness was caused by rigid,
+    angry ropes of muscle that had been held clenched for so long that the pressure
+    had turned them to stone.\PHe watched her over the thorn bushes with icy, impatient
+    eyes, awaiting instruction. Ilya nodded to him, raised the envelope from under
+    her coat. He wiped his hands on his pants and lumbered around the crop of bushes,
+    following behind her as she continued across the island, like her towering, crooked
+    shadow. He too had waited for the day in early autumn that the book foretold.
+    Not because it meant anything to him, but because she had told him what he\u2019d
+    have to do when it was time. Where he\u2019d have to go.\PThe bird. Ilya looked
+    up and noticed the fat crow sitting in a tree off a ways, hopping from branch
+    to branch, following the pair to the edge of the island, its black-bead eyes
+    trained on her. Its broken beak clacking as it barked at them in strangely human
+    tones. The caretaker picked up a stone from the path and chucked it at the bird,
+    barely missing it. Just like the pages told her he would, on the right day.\PThe
+    lush greenery and looming trees ended at the gravel and rock-strewn shore that
+    surrounded the island. Ilya and the caretaker arrived at a small green boat which
+    had been lashed tight around a tree trunk with rope. She could see the far shore
+    across the black lake, ensconced in fog. The caretaker waded into the water,
+    then slammed one booted foot into the boat. Ilya pulled the envelope out of her
+    coat and left it on the boat\u2019s bench, weighing it down with a stone. She
+    stepped back onto the shore as the caretaker crouched his crooked frame down
+    into the boat and, taking up the oars, began to row away from the island. She
+    watched him lurch across the black water, his eyes on her, through the fog, until
+    he, the boat, and the chunk of manuscript, had vanished.\PThis was the beginning.
+    How it all would start. The Book of Briars told her so.\PShe glanced down, and
+    under the water, beyond the reflection of the gray sky and the shadows of gnarled
+    branches, Ilya saw the edge of an old wooden sign, half submerged in silt. Its
+    ornately carved border barely visible. What was it that the sign said?\PShe saw
+    the fat crow watching her from a branch in the water\u2019s mirror. It squawked
+    a throaty squawk at her, took off, circled once, then disappeared into the fog
+    where the caretaker had vanished.\PIlya pulled her coat tighter around her neck
+    and made her way back through the dense woods, to the old gray house. A shiver
+    of autumn wind spun across the lake, through the trees, carrying with it what
+    smelled like spice and dew. Memories she almost knew. Ilya half remembered something
+    she\u2019d forgotten. Only for a moment, before the memory left her and lost
+    itself somewhere on the island like an old trinket. The ghost of a memory. The
+    sign in the water, how it used to hang from a post at a dock. A dock that had
+    buckled in the long-ago storm. She remembered the sign\u2019s forest green letters
+    and gold-foil border. And for a moment she remembered the words\u2014welcome
+    to neithernor.\P"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: e4e946ffe964e4b4aa96515137d92d77, type: 2}
+  m_sharedMaterial: {fileID: -8775019726888640261, guid: e4e946ffe964e4b4aa96515137d92d77, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 50
+  m_fontSizeBase: 60
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 50
+  m_fontSizeMax: 100
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 20
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 5
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -523.42847, y: 73.78967, z: 16.04132, w: -778.3164}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1013442787
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013442784}
+  m_CullTransparentMesh: 1
+--- !u!1 &1406940232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1406940236}
+  - component: {fileID: 1406940235}
+  - component: {fileID: 1406940234}
+  - component: {fileID: 1406940233}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1406940233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406940232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1406940234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406940232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1406940235
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406940232}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1406940236
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406940232}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1013442785}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &1718690669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1718690673}
+  - component: {fileID: 1718690672}
+  - component: {fileID: 1718690671}
+  - component: {fileID: 1718690670}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!114 &1718690670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718690669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1718690671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718690669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1718690672
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718690669}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1718690673
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718690669}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 309994463}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
