@@ -123,6 +123,128 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &13904650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 13904651}
+  - component: {fileID: 13904654}
+  - component: {fileID: 13904653}
+  - component: {fileID: 13904652}
+  m_Layer: 5
+  m_Name: Inventory Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &13904651
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13904650}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 468564254}
+  m_Father: {fileID: 1406940236}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -852}
+  m_SizeDelta: {x: 80, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &13904652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13904650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.3529412}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 13904653}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &13904653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13904650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 33af6ab80f5fd43c29cdf44532570698, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &13904654
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13904650}
+  m_CullTransparentMesh: 1
 --- !u!1 &240460329
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,7 +389,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 309994462}
   m_CullTransparentMesh: 1
---- !u!1 &357664191
+--- !u!1 &380161761
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -275,24 +397,45 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 357664195}
-  - component: {fileID: 357664194}
-  - component: {fileID: 357664193}
-  - component: {fileID: 357664192}
+  - component: {fileID: 380161762}
+  - component: {fileID: 380161765}
+  - component: {fileID: 380161764}
+  - component: {fileID: 380161763}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Forward Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &357664192
+--- !u!224 &380161762
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 380161761}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 923086705}
+  m_Father: {fileID: 1406940236}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 407, y: -852}
+  m_SizeDelta: {x: 90, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &380161763
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 357664191}
+  m_GameObject: {fileID: 380161761}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
@@ -307,7 +450,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.3529412}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -326,17 +469,17 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 357664193}
+  m_TargetGraphic: {fileID: 380161764}
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &357664193
+--- !u!114 &380161764
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 357664191}
+  m_GameObject: {fileID: 380161761}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -350,8 +493,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: b943209d4f20643dbbc3751b70a819ce, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -360,35 +503,149 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!222 &357664194
+--- !u!222 &380161765
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 357664191}
+  m_GameObject: {fileID: 380161761}
   m_CullTransparentMesh: 1
---- !u!224 &357664195
+--- !u!1 &468564253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 468564254}
+  - component: {fileID: 468564256}
+  - component: {fileID: 468564255}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &468564254
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 357664191}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_GameObject: {fileID: 468564253}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1272326036}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Children: []
+  m_Father: {fileID: 13904651}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &468564255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468564253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Button
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &468564256
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468564253}
+  m_CullTransparentMesh: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,7 +682,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.96862745, g: 0.9529412, b: 0.8901961, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -446,7 +703,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 2147483647
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -473,7 +730,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &721542037
+--- !u!1 &923086704
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -481,143 +738,132 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 721542038}
-  - component: {fileID: 721542040}
-  - component: {fileID: 721542039}
+  - component: {fileID: 923086705}
+  - component: {fileID: 923086707}
+  - component: {fileID: 923086706}
   m_Layer: 5
-  m_Name: Forward Button
+  m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &721542038
+--- !u!224 &923086705
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 721542037}
+  m_GameObject: {fileID: 923086704}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1406940236}
-  m_RootOrder: 2
+  m_Father: {fileID: 380161762}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 407, y: -852}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &721542039
+--- !u!114 &923086706
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 721542037}
+  m_GameObject: {fileID: 923086704}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.3529412}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: b943209d4f20643dbbc3751b70a819ce, type: 3}
-  m_UVRect:
+  m_text: 0
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
---- !u!222 &721542040
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &923086707
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 721542037}
-  m_CullTransparentMesh: 1
---- !u!1 &845466651
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 845466652}
-  - component: {fileID: 845466654}
-  - component: {fileID: 845466653}
-  m_Layer: 5
-  m_Name: Previous Button
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &845466652
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 845466651}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1406940236}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -407, y: -852}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &845466653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 845466651}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.3529412}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Texture: {fileID: 2800000, guid: b943209d4f20643dbbc3751b70a819ce, type: 3}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
---- !u!222 &845466654
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 845466651}
+  m_GameObject: {fileID: 923086704}
   m_CullTransparentMesh: 1
 --- !u!1 &1013442784
 GameObject:
@@ -929,7 +1175,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1013442784}
   m_CullTransparentMesh: 1
---- !u!1 &1272326035
+--- !u!1 &1096172310
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -937,9 +1183,131 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1272326036}
-  - component: {fileID: 1272326038}
-  - component: {fileID: 1272326037}
+  - component: {fileID: 1096172311}
+  - component: {fileID: 1096172314}
+  - component: {fileID: 1096172313}
+  - component: {fileID: 1096172312}
+  m_Layer: 5
+  m_Name: Previous Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1096172311
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096172310}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1139012662}
+  m_Father: {fileID: 1406940236}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -407, y: -852}
+  m_SizeDelta: {x: 90, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1096172312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096172310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.3529412}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1096172313}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1096172313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096172310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: b943209d4f20643dbbc3751b70a819ce, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1096172314
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096172310}
+  m_CullTransparentMesh: 1
+--- !u!1 &1139012661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1139012662}
+  - component: {fileID: 1139012664}
+  - component: {fileID: 1139012663}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -947,19 +1315,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1272326036
+--- !u!224 &1139012662
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1272326035}
+  m_GameObject: {fileID: 1139012661}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 357664195}
+  m_Father: {fileID: 1096172311}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -967,13 +1335,13 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1272326037
+--- !u!114 &1139012663
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1272326035}
+  m_GameObject: {fileID: 1139012661}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -987,7 +1355,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: 0
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1056,86 +1424,13 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1272326038
+--- !u!222 &1139012664
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1272326035}
-  m_CullTransparentMesh: 1
---- !u!1 &1335641986
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1335641987}
-  - component: {fileID: 1335641989}
-  - component: {fileID: 1335641988}
-  m_Layer: 5
-  m_Name: Inventory
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1335641987
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1335641986}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1406940236}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -852}
-  m_SizeDelta: {x: 80, y: 80}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1335641988
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1335641986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.3529412}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 33af6ab80f5fd43c29cdf44532570698, type: 3}
-  m_UVRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
---- !u!222 &1335641989
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1335641986}
+  m_GameObject: {fileID: 1139012661}
   m_CullTransparentMesh: 1
 --- !u!1 &1360108505
 GameObject:
@@ -1284,6 +1579,7 @@ GameObject:
   - component: {fileID: 1406940235}
   - component: {fileID: 1406940234}
   - component: {fileID: 1406940233}
+  - component: {fileID: 1406940237}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1366,9 +1662,9 @@ RectTransform:
   m_Children:
   - {fileID: 1360108506}
   - {fileID: 1013442785}
-  - {fileID: 721542038}
-  - {fileID: 845466652}
-  - {fileID: 1335641987}
+  - {fileID: 380161762}
+  - {fileID: 1096172311}
+  - {fileID: 13904651}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1377,6 +1673,198 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1406940237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406940232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a9f859d93385481b9de73879c7c0d75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  content: "No one remembered the books but her. \nThat was the first sentence in
+    The Book of Briars.\PIlya bristled when she first read that line because she
+    knew the \u201Cher\u201D mentioned in the passage was not her and felt the line
+    had been a nasty, underhanded swipe from the writer at Ilya\u2019s own failing
+    memory. It was cruel. But waiting for new pages, waiting to know what would happen
+    next, had been even crueler. The writer had not written in nearly two months\u2014a
+    still, late, sweltering summer without a single click of a typewriter key from
+    the fourth floor. And Ilya desperately needed to know what happened next. But
+    the room in the tower of the old, dark house was quiet. The typewriter keys remained
+    untapped. So Ilya wandered the dark and waited for more of the book\u2014a book
+    through which the writer had promised the truth, the truth she could no longer
+    remember. Ilya resented the \u201Cher\u201D from the story, hated her unseen.
+    The \u201Cher\u201D who hated the very same memory that Ilya was so desperate
+    to recall. Ilya waited for the writer to finish, season after season, longing
+    for the appropriate autumn, the one that began the book. The autumn that would
+    begin everything.\PThe whole of Ilya\u2019s existence was in service to the writer.
+    Tending the home fires, washing the cracked dishes, mopping the creaking floors,
+    caring for the caretaker, and caring for herself. It might have all seemed like
+    self-preservation, but instead was solely in service to the writer, and the books.
+    Not books. Singular, wasn\u2019t it? Book.\PIlya could see the first leaves begin
+    their fade to fire from the kitchen window. The thick air of summer was still
+    holding on, but autumn\u2019s fingers had begun to wind around the sticky ebbs
+    of heat, tugging the late season to other ends of the world. Ilya\u2019s withered
+    hands made quick work of the dirty dishes, rinsing them and drying them with
+    a rag. She took up the last plate and stopped to look at the half-dissolved pattern
+    painted on its chipped surface\u2014purple vines spiraling toward a rose at the
+    center. Who used this plate?\PShe couldn\u2019t remember. Was it her? The caretaker?
+    Memories were getting harder and harder to hold on to. It wasn\u2019t just her
+    age that was slowly eating away at her once-sharp and now failing mind. Memories
+    had always been hard to keep here in this place. Ilya opened a cabinet door with
+    thin, tapered fingers that were stained at the tips, like a cluster of gray-white
+    fountain pens smudged with ink. The cupboards had buckled over the years, some
+    had started pulling away from the wall, leaning out and over, as if they were
+    falling asleep. She put the dishes away and noticed summer light bleeding in
+    through the rotting plaster at the back of the cabinets. The shreds of cobweb
+    tucked inside billowed in the air like dress hems. That\u2019s where the memories
+    went. Through the cracks, into the gray outside. She watched the gossamer threads
+    flutter for a while. A small cup sat dust-covered in the back of the cabinet.
+    Porcelain, with a ring of ducklings circling it, eternally following their mother
+    duck as she in turn followed them. Had there once been children here? Perhaps
+    belonging to the writer? Hadn\u2019t she cared for them, then sent them out over
+    the water as they, one by one, grew too big to stay? Yes, there had been children.\PBut
+    now the house was quiet. Once grand, it was now a decomposing Victorian monster
+    filled with dim corners and shiny-dark floors that peeled off to winding halls
+    and countless, cluttered, unused rooms. Rooms with floors that moaned without
+    footsteps, where morning fog entered freely and settled into the moth-plucked
+    sofas and cracked plaster. It all felt dark, wet, and exposed. If the house hadn\u2019t
+    been completely forgotten by the outside world it would\u2019ve long been condemned
+    and destroyed. The back wall of the kitchen was almost completely gone and what
+    remained was crumbling brick peeking out of plaster like broken bone, covered
+    over with hastily hammered-up fence pickets. Vines crept through the slats, coming
+    to see what inside was like. What happened to that wall?\PIlya\u2019s fountain
+    pen fingers scribbled along the edges of the broken wall like she was worrying
+    a scar. Someone had scrawled a message near the broken edge.\P1998\u2014a storm
+    passed over the house.\PThat\u2019s right. Screaming wind and stinging rain,
+    but also dust and debris. She had written the message herself. A storm had feasted
+    on the house, and the house, being far removed, and Ilya, being old even twenty
+    years ago if she was right about how much time had passed, had resigned that
+    this was how she and the house and the writer would live. There was no choice
+    really. One would have an idea or a plan to do something about it, to repair
+    it, and this place would take those thoughts of plans, like it did with the past,
+    and scatter them in the underbrush, or in the black water beyond the trees.\PUpstairs,
+    a typewriter key clicked. Another. Every key struck with labored choice. Ilya
+    scurried to the sitting room and listened. A shiver ran through her thin frame,
+    a smile in her eyes, disconnected from her grim lips. She decided a fire was
+    in order. A fire to celebrate new pages and the end of summer. She fed the mouth
+    of a deep and crooked hearth, expertly setting a flame. Ilya could feel the autumn
+    chill coming before anyone else. Autumn carried cold, and the ghosts of memories
+    lost.\PHer large, round eyes reflected the growing firelight. When she blinked
+    back the heat, the lids crept slowly over the wet orbs, dreading the journey
+    ahead of them. Her skin was thin, a glazed window hinting at the interior, blue
+    veins and bones and thin ribbons of muscle. A beached creature from the deep
+    sea. Translucent, alien, weak-looking. But there was hidden, unused strength
+    in her long, lean body. The lone contrast to her pale skin were the faded numbers
+    etched into her forearm. Marks of a war long gone, but not entirely forgotten.
+    She\u2019d been fortified in the depths that eventually bore her here, to this
+    house, and she was strong. How did we get here? The caretaker, the writer, and
+    me?\PThis was a question she asked herself every day. Ilya slid into a hard,
+    wooden chair by the fire, fountain pen fingers intertwined in her lap, and there
+    she waited while the writer worked.\PThe light of early evening peeked through
+    the windows, casting stretched-out shadows of bare tree limbs, like a trick in
+    a carnival haunted house. The writer was spent, having churned out dozens of
+    new pages in a fever of productivity. Ilya shut the tower room door behind her
+    as quietly as she could, the stack of fresh pages in hand. She shuffled down
+    the four flights of stairs, devouring the new work with her orb eyes, finishing
+    them by the light of the fire she\u2019d built. When she was done, she held them
+    to her chest. Tears rimmed the edges of her lids as she rocked the pages in her
+    arms. This autumn. The story, while still unfinished, had been uncurled just
+    enough in the new passages that Ilya finally knew what she had to do. Where this
+    all was leading. Like kindling, the pages had set a fire in her old, cold body.\PShe
+    shuffled the typed pages into a neat stack and took them to the dining room,
+    adding them to stacks of other pages on the long, warped table, each chapter
+    pinned under a gray stone. The pages she had collected season after season. She
+    took a moment, staring down at the rows of stacks, the paper edges rippled from
+    age and humidity, fluttering in the ever-present draft. She looked down at the
+    book that was slowly being conjured over the course of years, as if she were
+    peering over the edge of a cliff\u2014The Book of Briars being born.\PThis autumn.
+    Today is the day she would clean the plate, light the fire, and walk to the boat.
+    Just like the first chapter always said. She took a breath, then began moving
+    stones aside, collecting stacks of pages until she held a chunk of the book in
+    her hands. Just the right chapters to begin, to set events in motion.\PIn the
+    study, Ilya sat at a small desk and copied an address from a notebook to an envelope,
+    then she slathered the corner with old stamps. She slid the pages into the large
+    envelope, along with other smaller envelopes, then moved to the front hall, where
+    she shrugged on a patched canvas coat. She yanked the jammed front door open
+    and marched out against the cool evening.\PThe old gray house stood at the end
+    of a small, densely treed island, which itself sat at the heart of a forgotten,
+    rock-shored lake. The island\u2019s shape was irregular. Deep, black inlets and
+    thick, fingerlike jetties. Paths that once crisscrossed the island had long been
+    consumed by plant life and mostly vanished. But Ilya moved along them by instinct,
+    muscle memory, pushing through the deep vegetation to the other side of the island.
+    The sky was dim and frosted. Autumn. She moved quickly from the ornate, rotting
+    house, peeking back to see the pair of leaded windows that had been thrown open
+    on the fourth-floor tower until the foliage of the island hid them again.\PIlya
+    ducked under a branch, swiping aside a silver necklace that hung from it. The
+    trees, bushes, and overgrown paths on the island were littered with old, worn
+    artifacts. Scarves and watches, rings and keys, pens and bottles, and mirrors
+    and books. The deep green foliage encrusted with gold, silver, and colors both
+    deep and long-faded. Most of the objects were brushed aside and piled up at the
+    edges of the paths, or into the underbrush, but there were newly arrived trinkets
+    that Ilya kicked aside as she moved to the other end of the island with purpose.
+    She disregarded the objects as nuisance, not as treasure. It was as if they had
+    washed onto the island from places unknown, like sea glass.\PShe approached a
+    man at a clearing in the center of the island, on his knees, picking the last
+    berries from the throng of tangled, thorn-ridden bushes that stood between them.
+    \u201CThe caretaker,\u201D Ilya called him. She couldn\u2019t remember his name.
+    Names didn\u2019t matter here. They were the first to go, names, carried over
+    the black water, into the fog. The berries were delicate and their skins split
+    between the man\u2019s thick, rending fingertips, staining them purple-black.
+    Like Ilya\u2019s. But his fingers were blunt and gnarled like the rest of him.
+    He stood, wiping his hands on his dark canvas pants. He was broadly built, and
+    tall, even though his body was warped as if he were always standing in a narrow
+    doorway only he could see. To the unfamiliar he may have seemed disabled, broken.
+    Like an old oak that had succumbed to weather or disease. But Ilya knew better.
+    She feared the caretaker because she knew his power. She didn\u2019t remember
+    how she knew, but a kernel of fear in the back of her mind rattled as she looked
+    up at him. Somewhere she imagined that his dense crookedness was caused by rigid,
+    angry ropes of muscle that had been held clenched for so long that the pressure
+    had turned them to stone.\PHe watched her over the thorn bushes with icy, impatient
+    eyes, awaiting instruction. Ilya nodded to him, raised the envelope from under
+    her coat. He wiped his hands on his pants and lumbered around the crop of bushes,
+    following behind her as she continued across the island, like her towering, crooked
+    shadow. He too had waited for the day in early autumn that the book foretold.
+    Not because it meant anything to him, but because she had told him what he\u2019d
+    have to do when it was time. Where he\u2019d have to go.\PThe bird. Ilya looked
+    up and noticed the fat crow sitting in a tree off a ways, hopping from branch
+    to branch, following the pair to the edge of the island, its black-bead eyes
+    trained on her. Its broken beak clacking as it barked at them in strangely human
+    tones. The caretaker picked up a stone from the path and chucked it at the bird,
+    barely missing it. Just like the pages told her he would, on the right day.\PThe
+    lush greenery and looming trees ended at the gravel and rock-strewn shore that
+    surrounded the island. Ilya and the caretaker arrived at a small green boat which
+    had been lashed tight around a tree trunk with rope. She could see the far shore
+    across the black lake, ensconced in fog. The caretaker waded into the water,
+    then slammed one booted foot into the boat. Ilya pulled the envelope out of her
+    coat and left it on the boat\u2019s bench, weighing it down with a stone. She
+    stepped back onto the shore as the caretaker crouched his crooked frame down
+    into the boat and, taking up the oars, began to row away from the island. She
+    watched him lurch across the black water, his eyes on her, through the fog, until
+    he, the boat, and the chunk of manuscript, had vanished.\PThis was the beginning.
+    How it all would start. The Book of Briars told her so.\PShe glanced down, and
+    under the water, beyond the reflection of the gray sky and the shadows of gnarled
+    branches, Ilya saw the edge of an old wooden sign, half submerged in silt. Its
+    ornately carved border barely visible. What was it that the sign said?\PShe saw
+    the fat crow watching her from a branch in the water\u2019s mirror. It squawked
+    a throaty squawk at her, took off, circled once, then disappeared into the fog
+    where the caretaker had vanished.\PIlya pulled her coat tighter around her neck
+    and made her way back through the dense woods, to the old gray house. A shiver
+    of autumn wind spun across the lake, through the trees, carrying with it what
+    smelled like spice and dew. Memories she almost knew. Ilya half remembered something
+    she\u2019d forgotten. Only for a moment, before the memory left her and lost
+    itself somewhere on the island like an old trinket. The ghost of a memory. The
+    sign in the water, how it used to hang from a post at a dock. A dock that had
+    buckled in the long-ago storm. She remembered the sign\u2019s forest green letters
+    and gold-foil border. And for a moment she remembered the words\u2014welcome
+    to neithernor.\P"
+  leftSide: {fileID: 0}
+  rightSide: {fileID: 1013442786}
+  leftPagination: {fileID: 1139012663}
+  rightPagination: {fileID: 923086706}
 --- !u!1 &1718690669
 GameObject:
   m_ObjectHideFlags: 0
@@ -1395,7 +1883,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1718690670
 MonoBehaviour:
   m_ObjectHideFlags: 0
